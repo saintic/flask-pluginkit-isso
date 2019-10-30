@@ -1,0 +1,2 @@
+<!--isso评论系统-->
+<script data-isso="{{ emit_config('ISSO_API') }}" data-isso-id="{{ request.path }}" data-isso-avatar="{{ emit_config('ISSO_AVATAR') or 'false' }}" data-isso-gravatar="{{ emit_config('ISSO_GRAVATAR') or 'true' }}" data-isso-reply-notifications="{{ emit_config('ISSO_REPLY_NOTIFICATIONS') or 'true' }}" data-isso-require-author="{{ emit_config('ISSO_REQUIRE_AUTHOR') or 'true' }}" src="{{ emit_config('ISSO_JS') or emit_config('ISSO_API') + '/js/embed.min.js' }}"></script>
